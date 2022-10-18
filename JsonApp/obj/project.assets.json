@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mashlyakevich_lk\\Desktop\\TechMeSkills\\TeachMeSkiils\\JSON\\JsonApp\\JsonApp\\JsonApp.csproj",
+      "projectUniqueName": "C:\\Users\\mashlyakevich_lk\\Desktop\\TechMeSkills\\TeachMeSkiils\\JSON-_Tabl\\JsonApp\\JsonApp.csproj",
       "projectName": "JsonApp",
-      "projectPath": "C:\\Users\\mashlyakevich_lk\\Desktop\\TechMeSkills\\TeachMeSkiils\\JSON\\JsonApp\\JsonApp\\JsonApp.csproj",
+      "projectPath": "C:\\Users\\mashlyakevich_lk\\Desktop\\TechMeSkills\\TeachMeSkiils\\JSON-_Tabl\\JsonApp\\JsonApp.csproj",
       "packagesPath": "C:\\Users\\mashlyakevich_lk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mashlyakevich_lk\\Desktop\\TechMeSkills\\TeachMeSkiils\\JSON\\JsonApp\\JsonApp\\obj\\",
+      "outputPath": "C:\\Users\\mashlyakevich_lk\\Desktop\\TechMeSkills\\TeachMeSkiils\\JSON-_Tabl\\JsonApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mashlyakevich_lk\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZZRY0viSVWikOnuMkObW7ramU6M0KvW43p7BpqgaGJX8Zb2U1NHQhsKClKbaEVtfI+PwQ/bMX+vYozpmXYO2FQ==",
+  "dgSpecHash": "7q3LjWcMI66/K2Qo/dCEwBAb3efKolY+qbTFUKmfbAmJs9Ml5jRfClx9jLaDm8Y0ZEFin06HvquNKroeRnwWIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mashlyakevich_lk\\Desktop\\TechMeSkills\\TeachMeSkiils\\JSON\\JsonApp\\JsonApp\\JsonApp.csproj",
+  "projectFilePath": "C:\\Users\\mashlyakevich_lk\\Desktop\\TechMeSkills\\TeachMeSkiils\\JSON-_Tabl\\JsonApp\\JsonApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mashlyakevich_lk\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

@@ -8,49 +8,33 @@ namespace JsonApp
     {
         static void Main(string[] args)
         {
-            var human1 = new Person("Leo",25,"BEL","Brest","Sovet");
+            var human1 = new Person("Leo", 25, "BEL", "Brest", "Sovet");
             var human2 = new Person("Nick", 18, "UA", "Kiev", "Lenina");
             var human3 = new Person("Alex", 99, "Usa", "Cali", "25st");
-
-            FileStream stream = File.Open("data.json", FileMode.OpenOrCreate);
-            JsonSerializer js = new JsonSerializer();
-            StreamWriter strWrit = new StreamWriter(stream);
-            js.Serialize(strWrit,human1);
-            js.Serialize(strWrit, human2);
-            js.Serialize(strWrit, human3);
-            StreamReader strRead =new StreamReader(stream);
-            Console.WriteLine(strRead.ReadToEnd());
-            strWrit.Close();
-            
-            stream.Close();
-
-        }
-    }
-    public class Person
-    {
-        public Person( string name, int age, string country, string state, string street)
-        {
-            Name = name;
-            Age = age;
-            Adress = new Adress
-            {
-                Country = country,
-                State = state,
-                Street = street
-            };
-
+            var numn4 = new Person("Alex", 99, "Usa", "Cali", "25st");
+            WorkWithFile.Add(human1);
+            WorkWithFile.Add(human2);
+            Console.WriteLine(WorkWithFile.Get().Adress);
+            var tableOne = new Table< string , int>();
+            tableOne.Add(WorkWithFile.Get().Name, WorkWithFile.Get().Age, WorkWithFile.Get().Adress);
+            tableOne.Print();
+             
+            //FileStream stream = File.Open("data.json", FileMode.OpenOrCreate);
+            //JsonSerializer js = new JsonSerializer();
+            //StreamWriter strWrit = new StreamWriter(stream);
+            ////js.Serialize(strWrit,human1);
+            ////js.Serialize(strWrit, human2);
+            ////js.Serialize(strWrit, human3);
+            //StreamReader strRead = new StreamReader(stream);
+            //var person = (Person)js.Deserialize(strRead, typeof(Person));
+            //Console.WriteLine(person.Adress);
+            ////js.Deserialize<Person>(stream);
+            //Console.WriteLine(strRead.ReadToEnd());
+            //strWrit.Close();
+            //stream.Close();
 
         }
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public Adress Adress { get; set; }
     }
-    public class Adress
-    {
-        public string Country { get; set; }
-        public string State { get; set; }
-        public string Street { get; set; }
-
-    }
+    
 
 }
