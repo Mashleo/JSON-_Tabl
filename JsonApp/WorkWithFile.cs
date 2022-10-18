@@ -8,9 +8,9 @@ namespace JsonApp
 {
     public static class WorkWithFile
     {
-        public static void Add(Person person)
+        public static void Add(List<Person> person)
         {
-            FileStream stream = File.Open("data2.json", FileMode.OpenOrCreate);
+            FileStream stream = File.Open("data.json", FileMode.OpenOrCreate);
           
             JsonSerializer js = new JsonSerializer();
            
@@ -23,7 +23,7 @@ namespace JsonApp
         }
         public static List<Person> Get()
         {
-            List<Person> listPerson = new List<Person>();
+           // List<Person> listPerson = new List<Person>();
             FileStream stream = File.Open("data.json", FileMode.OpenOrCreate);
             
             JsonSerializer js = new JsonSerializer();
@@ -31,32 +31,15 @@ namespace JsonApp
             StreamReader strRead = new StreamReader(stream);
 
 
-             var person = (Person)js.Deserialize(strRead, typeof(Person));
+             var person = (List<Person>)js.Deserialize(strRead, typeof(List<Person>));
 
-            listPerson.Add(person);
+           // listPerson.Add(person);
             strRead.Close();
             stream.Close();
 
-            return listPerson;
+            return person;
         }
-        public static Person[] Get(int a)
-        {
-            //var[] listPerson = new Person[;
-            FileStream stream = File.Open("data.json", FileMode.OpenOrCreate);
-
-            JsonSerializer js = new JsonSerializer();
-
-            StreamReader strRead = new StreamReader(stream);
-
-
-            Person[] listPerson = (Person[])js.Deserialize(strRead, typeof(Person));
-
-            //listPerson.Add(person);
-            strRead.Close();
-            stream.Close();
-
-            return listPerson;
-        }
+        
 
     }
 }
