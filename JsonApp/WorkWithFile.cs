@@ -11,21 +11,51 @@ namespace JsonApp
         public static void Add(Person person)
         {
             FileStream stream = File.Open("data2.json", FileMode.OpenOrCreate);
+          
             JsonSerializer js = new JsonSerializer();
+           
             StreamWriter strWrit = new StreamWriter(stream);
+            
             js.Serialize(strWrit, person);
-            strWrit.Close();
+            
+            strWrit.Close();            
             stream.Close();
         }
-        public static Person Get()
+        public static List<Person> Get()
         {
-            FileStream stream = File.Open("data2.json", FileMode.OpenOrCreate);
+            List<Person> listPerson = new List<Person>();
+            FileStream stream = File.Open("data.json", FileMode.OpenOrCreate);
+            
             JsonSerializer js = new JsonSerializer();
+            
             StreamReader strRead = new StreamReader(stream);
-            var person = (Person)js.Deserialize(strRead, typeof(Person));
+
+
+             var person = (Person)js.Deserialize(strRead, typeof(Person));
+
+            listPerson.Add(person);
             strRead.Close();
             stream.Close();
-            return person;
+
+            return listPerson;
+        }
+        public static Person[] Get(int a)
+        {
+            //var[] listPerson = new Person[;
+            FileStream stream = File.Open("data.json", FileMode.OpenOrCreate);
+
+            JsonSerializer js = new JsonSerializer();
+
+            StreamReader strRead = new StreamReader(stream);
+
+
+            Person[] listPerson = (Person[])js.Deserialize(strRead, typeof(Person));
+
+            //listPerson.Add(person);
+            strRead.Close();
+            stream.Close();
+
+            return listPerson;
         }
 
     }

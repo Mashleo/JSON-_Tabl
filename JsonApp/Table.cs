@@ -4,36 +4,31 @@ using System.Text;
 
 namespace JsonApp
 {
-    public class Table<T, U>
+    public class Table
     {
-        public Table()
-        {
-            tValue = new List<T>();
-            uValue = new List<U>();
-            zValue = new List<Adress>();
-
-
-        }
-
-        public List<T> tValue { get; set; }
-        public List<U> uValue { get; set; }
-        public List<Adress> zValue { get; set; }
-        public void Add(T _tvalue, U _uvalue, Adress _zvalue)
-        {
-            tValue.Add(_tvalue);
-            uValue.Add(_uvalue);
-            zValue.Add(_zvalue);
-        }
-        public void Print()
+        public void Print( List<Person> person)
         {
 
-            for (int i = 0; i < tValue.Count; i++)
+            for (int i = 0; i < person.Count; i++)
             {
                 if (i == 0)
                 {
                     Console.WriteLine($"|NAME\t|AGE\t|ADRESS\t|");
                 }
-                Console.WriteLine($"|{tValue[i]}\t|{uValue[i]}\t|{zValue[i].Country} {zValue[i].State} {zValue[i].Street}\t|");
+                Console.WriteLine($"|{person[i].Name}\t|{person[i].Age}\t|{person[i].Adress.Country} {person[i].Adress.State} {person[i].Adress.Street}\t|");
+            }
+
+        }
+        public void Print(Person[] person)
+        {
+
+            for (int i = 0; i < person.Length; i++)
+            {
+                if (i == 0)
+                {
+                    Console.WriteLine($"|NAME\t|AGE\t|ADRESS\t|");
+                }
+                Console.WriteLine($"|{person[i].Name}\t|{person[i].Age}\t|{person[i].Adress.Country} {person[i].Adress.State} {person[i].Adress.Street}\t|");
             }
 
         }
