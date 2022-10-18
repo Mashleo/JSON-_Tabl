@@ -1,0 +1,15 @@
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\bin\Debug\netcoreapp3.1\JsonApp.exe
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\bin\Debug\netcoreapp3.1\JsonApp.deps.json
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\bin\Debug\netcoreapp3.1\JsonApp.runtimeconfig.json
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\bin\Debug\netcoreapp3.1\JsonApp.runtimeconfig.dev.json
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\bin\Debug\netcoreapp3.1\JsonApp.dll
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\bin\Debug\netcoreapp3.1\JsonApp.pdb
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\obj\Debug\netcoreapp3.1\JsonApp.csproj.AssemblyReference.cache
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\obj\Debug\netcoreapp3.1\JsonApp.AssemblyInfoInputs.cache
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\obj\Debug\netcoreapp3.1\JsonApp.AssemblyInfo.cs
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\obj\Debug\netcoreapp3.1\JsonApp.csproj.CoreCompileInputs.cache
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\obj\Debug\netcoreapp3.1\JsonApp.csproj.CopyComplete
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\obj\Debug\netcoreapp3.1\JsonApp.dll
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\obj\Debug\netcoreapp3.1\JsonApp.pdb
+C:\Users\mashlyakevich_lk\Desktop\TechMeSkills\TeachMeSkiils\JSON\JsonApp\JsonApp\obj\Debug\netcoreapp3.1\JsonApp.genruntimeconfig.cache
