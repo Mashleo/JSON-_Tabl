@@ -6,6 +6,10 @@ namespace JsonApp
 {
     public class Person
     {
+        public Person()
+        {
+            Adress = new Adress();
+        }
         public Person(string name, int age, string country, string state, string street)
         {
             Name = name;
